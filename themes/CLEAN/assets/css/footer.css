@@ -1,0 +1,79 @@
+.site-footer {
+  color: var(--font-color-secondary);
+  background-color: var(--bg-footer);
+}
+.site-footer .footer-container {
+  max-width: 1440px;
+  padding: 24px 135px;
+  margin-inline: auto;
+}
+.site-footer .footer-container .footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+.site-footer .footer-container .footer-grid .footer-logo p {
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+.site-footer .footer-container .footer-grid .footer-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.site-footer .footer-container .footer-grid .footer-menu .menu-item {
+  padding: 16px 0;
+}
+.site-footer .footer-container .footer-grid .footer-menu .menu-item a {
+  color: var(--font-color-secondary);
+}
+.site-footer .footer-container .footer-grid .wpforms-container-full {
+  margin: 0;
+  padding: 0;
+}
+.site-footer .footer-container .footer-grid .wpforms-container-full .wpforms-head-container .wpforms-title {
+  color: var(--font-color-secondary);
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.site-footer .footer-container .footer-grid .wpforms-container-full .wpforms-field-container .wpforms-field input {
+  background: transparent;
+  color: var(--font-color-secondary);
+  border: 1px solid var(--font-color-lighter);
+  width: 100%;
+}
+.site-footer .footer-container .footer-grid .wpforms-container-full .wpforms-field-container .wpforms-field input::-moz-placeholder {
+  color: var(--font-color-secondary);
+}
+.site-footer .footer-container .footer-grid .wpforms-container-full .wpforms-field-container .wpforms-field input::placeholder {
+  color: var(--font-color-secondary);
+}
+.site-footer .footer-container .footer-grid .wpforms-container-full .wpforms-submit-container .wpforms-submit {
+  color: var(--font-color-secondary);
+  background-color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.site-footer .footer-container .footer-grid .wpforms-container-full .wpforms-submit-container .wpforms-submit:hover {
+  color: var(--font-color-main);
+  background: var(--bg-color);
+}
+.site-footer .footer-container .footer-hr {
+  opacity: 0.6;
+  margin: 30px 0;
+}
+.site-footer .footer-container .absolute-footer {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .site-footer {
+    width: 100%;
+    display: flex;
+  }
+}/*# sourceMappingURL=footer.css.map */

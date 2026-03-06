@@ -1,0 +1,26 @@
+.section-services .section-content {
+  -moz-columns: 1;
+       columns: 1;
+  margin: auto 0;
+}
+.section-services .section-content h5 {
+  margin-bottom: 15px;
+}
+.section-services .section-content p {
+  margin: 40px 0;
+}
+.section-services .services-img {
+  -moz-columns: 2;
+       columns: 2;
+  position: relative;
+}
+.section-services .services-img img:first-of-type {
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+.section-services .services-img img:last-of-type {
+  position: absolute;
+  left: 30px;
+  bottom: -30px;
+}/*# sourceMappingURL=section-services.css.map */

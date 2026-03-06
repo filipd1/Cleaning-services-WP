@@ -1,0 +1,32 @@
+.section-services {
+
+    .section-content {
+        columns: 1;
+        margin: auto 0;
+
+        h5 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin: 40px 0;
+        }
+    }
+
+    .services-img {
+        columns: 2;
+        position: relative;
+
+        img:first-of-type {
+            position: absolute;
+            top: -30px;
+            right: 0;
+        }
+
+        img:last-of-type {
+            position: absolute;
+            left: 30px;
+            bottom: -30px;
+        }
+    }
+}

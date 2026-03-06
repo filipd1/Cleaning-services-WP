@@ -1,0 +1,46 @@
+.section-company {
+
+    .company-img {
+        position: relative;
+
+        img {
+            position: absolute;
+        }
+
+        :first-child {
+            top: 0;
+            left: 0;
+        }
+
+        :last-child {
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    .section-content {
+        p {
+            margin-top: 40px;
+        }
+
+        ul {
+            columns: 2;
+            column-gap: 40px;
+            margin: 48px 0;
+
+            li {
+                break-inside: avoid;
+                padding: 15px;
+                font-size: 16px;
+                background-color: var(--bg-darker);
+                margin-bottom: 10px;
+                border-radius: 4px;
+            }
+        }
+
+        .company-cta {
+            display: flex;
+            gap: 24px;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.contact-info {
+    h3 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .info-list {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .info-item {
+            background-color: var(--bg-darker);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border-radius: 12px;
+            padding: 20px;
+
+            .info-item-text {
+                .label {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #000;
+                }
+
+                .details {
+                    font-size: 16px;
+                    color: var(--font-color-lighter);
+                }
+            }
+        }
+    }
+}
+
+.contact-form {
+
+    .wpforms-head-container {
+        .wpforms-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .wpforms-description {
+            font-size: 16px;
+        }
+    }
+
+    .wpforms-container-full {
+        .wpforms-form {
+            input,
+            textarea {
+                padding: 18px 20px;
+                font-size: 16px;
+                max-width: 100%;
+                border: 1px solid rgba($color: #000000, $alpha: .1);
+            }
+
+            .wpforms-submit-container {
+                .wpforms-submit {
+                    color: var(--font-color-secondary);
+                    background-color: var(--accent);
+                    border: 1px solid var(--accent);
+                    border-radius: 6px;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                .wpforms-submit:hover {
+                    color: var(--font-color-main);
+                    background: var(--bg-color)
+                }
+            }
+        }
+
+        .wpforms-confirmation-scroll {
+            border-radius: 14px;
+        }
+    }
+}

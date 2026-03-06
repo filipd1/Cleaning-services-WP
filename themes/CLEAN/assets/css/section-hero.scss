@@ -1,0 +1,18 @@
+.section-hero {
+    background-image: url('../img/hero_bg.png');
+    min-height: 585px;
+
+    .section-content {
+        columns: 1;
+        margin: auto 0;
+
+        h5 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin: 40px 0;
+        }
+    }
+}

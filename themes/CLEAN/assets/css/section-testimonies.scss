@@ -1,0 +1,110 @@
+.section-testimonies {
+
+    .section-content {
+        p {
+            margin: 40px 0;
+        }
+
+        .testimonies-btns {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                outline: none;
+                cursor: pointer;
+
+                svg {
+                    width: 60px;
+                    height: 60px;
+                    padding: 16px;
+                    border-radius: 10px;
+                    border: 1px solid var(--accent);
+                }
+            }
+            
+            .btn-prev {
+                svg {
+                    transform: rotate(180deg);
+                    color: var(--accent);
+                    background-color: var(--bg-color);
+                }
+            }
+
+            .btn-next {
+                svg {
+                    color: var(--font-color-secondary);
+                    background-color: var(--accent);
+                }
+            }
+
+            button:disabled {
+                opacity: .4;
+                cursor: default;
+            }
+        }
+    }
+
+    .testimonies-swiper {
+        position: relative;
+        width: 100%;
+        padding: 15px;
+
+        .swiper-slide {
+            height: auto;
+            width: 100%;
+        }
+
+        .swiper-wrapper {
+            height: auto;
+            width: 100%;
+        }
+
+        .testimony-card {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow:
+                0 4px 10px 0 rgba(0,0,0,.1),
+                10px -10px 0 0 var(--accent);
+
+            img {
+                width: 170px;
+                height: 250px;
+                border-radius: 12px;
+            }
+        }
+
+        .testimony-card-right {
+
+            .testimony-card-right-upper {
+                display: flex;
+                gap: 40px;
+
+                .testimony-card-inner-text {
+                    h3 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        margin: 10px 0;
+                    }
+                }
+            }
+
+            .testimony-content {
+                margin-top: 16px;
+                font-size: 16px;
+            }
+        }
+
+
+    }
+}

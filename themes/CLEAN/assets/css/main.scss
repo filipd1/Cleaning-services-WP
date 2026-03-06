@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'header.css';
+@import 'footer.css';
+@import 'section-hero.css';
+@import 'section-services.css';
+@import 'section-company.css';
+@import 'section-plans.css';
+@import 'section-testimonies.css';
+@import 'section-blog.css';
+@import 'section-contact.css';
+
+:root {
+    --bg-color: #fff;
+    --bg-footer: #111D15;
+    --font-color-main: #111D15;
+    --font-color-lighter: #666;
+    --font-color-secondary: #fff;
+    --accent: #36B864;
+    --bg-darker: #F5F4F4;
+    
+    color: var(--font-color-main);
+    background: var(--bg-color);
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 360px;
+    position: relative;
+    color: var(--font-color-main);
+}
+
+a {
+    color: var(--font-color-main);
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 6px;
+    padding: 12px 32px;
+    font-size: 16px;
+}
+
+.btn-main {
+    color: var(--font-color-secondary);
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+}
+
+.btn-secondary {
+    color: var(--font-color-main);
+    background-color: transparent;
+    border: 1px solid var(--font-color-main);
+}
+
+.btn-main:hover {
+    color: var(--font-color-main);
+    background-color: var(--bg-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--bg-darker);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin-top: 40px;
+    margin-inline: auto;
+}
+
+.section {
+    position: relative;
+    margin-bottom: 200px;
+    padding: 0 135px;
+
+    .section-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+
+        h5 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .section-hr {
+        color: var(--font-color-main);
+        opacity: .6;
+        margin: 50px 0;
+    }
+
+    h1 {
+        font-size: 52px;
+        font-weight: bold;
+        line-height: 1.15;
+    }
+
+    h2 {
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    p {
+        font-size: 18px;
+        color: var(--font-color-lighter);
+    }
+
+    .section-cta {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 110px;
+}
+
+.simple-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    .simple-card {
+        border-radius: 20px;
+
+        img {
+            border-radius: 20px;
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 20px;
+
+            h3 {
+                margin-top: 15px;
+                font-size: 24px;
+            }
+
+            p {
+                margin: 30px 0;
+            }
+        }
+
+        .card-socials {
+            display: flex;
+        }
+    }
+
+    .simple-card:nth-of-type(2) {
+        border: 1px solid rgba($color: #000, $alpha: .2);
+    
+        .btn {
+            color: var(--font-color-secondary);
+            background-color: var(--accent);
+            border: 1px solid var(--accent);
+        }
+
+        .btn:hover {
+            color: var(--font-color-main);
+            background-color: var(--bg-color);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        padding: 2em;
+    }
+
+    .section {
+        margin-bottom: 100px;
+    }
+}

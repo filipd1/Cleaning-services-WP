@@ -1,0 +1,58 @@
+.contact-info h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-info .info-list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact-info .info-list .info-item {
+  background-color: var(--bg-darker);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+  padding: 20px;
+}
+.contact-info .info-list .info-item .info-item-text .label {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.contact-info .info-list .info-item .info-item-text .details {
+  font-size: 16px;
+  color: var(--font-color-lighter);
+}
+
+.contact-form .wpforms-head-container .wpforms-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.contact-form .wpforms-head-container .wpforms-description {
+  font-size: 16px;
+}
+.contact-form .wpforms-container-full .wpforms-form input,
+.contact-form .wpforms-container-full .wpforms-form textarea {
+  padding: 18px 20px;
+  font-size: 16px;
+  max-width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contact-form .wpforms-container-full .wpforms-form .wpforms-submit-container .wpforms-submit {
+  color: var(--font-color-secondary);
+  background-color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contact-form .wpforms-container-full .wpforms-form .wpforms-submit-container .wpforms-submit:hover {
+  color: var(--font-color-main);
+  background: var(--bg-color);
+}
+.contact-form .wpforms-container-full .wpforms-confirmation-scroll {
+  border-radius: 14px;
+}/*# sourceMappingURL=section-contact.css.map */

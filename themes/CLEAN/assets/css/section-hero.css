@@ -1,0 +1,16 @@
+.section-hero {
+  background-image: url("../img/hero_bg.png");
+  min-height: 585px;
+}
+.section-hero .section-content {
+  -moz-columns: 1;
+       columns: 1;
+  margin: auto 0;
+}
+.section-hero .section-content h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.section-hero .section-content p {
+  margin: 40px 0;
+}/*# sourceMappingURL=section-hero.css.map */

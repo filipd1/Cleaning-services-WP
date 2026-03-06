@@ -1,0 +1,37 @@
+.section-company .company-img {
+  position: relative;
+}
+.section-company .company-img img {
+  position: absolute;
+}
+.section-company .company-img :first-child {
+  top: 0;
+  left: 0;
+}
+.section-company .company-img :last-child {
+  bottom: 0;
+  right: 0;
+}
+.section-company .section-content p {
+  margin-top: 40px;
+}
+.section-company .section-content ul {
+  -moz-columns: 2;
+       columns: 2;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin: 48px 0;
+}
+.section-company .section-content ul li {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+  padding: 15px;
+  font-size: 16px;
+  background-color: var(--bg-darker);
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.section-company .section-content .company-cta {
+  display: flex;
+  gap: 24px;
+}/*# sourceMappingURL=section-company.css.map */

@@ -1,0 +1,77 @@
+.section-testimonies .section-content p {
+  margin: 40px 0;
+}
+.section-testimonies .section-content .testimonies-btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-testimonies .section-content .testimonies-btns button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.section-testimonies .section-content .testimonies-btns button svg {
+  width: 60px;
+  height: 60px;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid var(--accent);
+}
+.section-testimonies .section-content .testimonies-btns .btn-prev svg {
+  transform: rotate(180deg);
+  color: var(--accent);
+  background-color: var(--bg-color);
+}
+.section-testimonies .section-content .testimonies-btns .btn-next svg {
+  color: var(--font-color-secondary);
+  background-color: var(--accent);
+}
+.section-testimonies .section-content .testimonies-btns button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.section-testimonies .testimonies-swiper {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+}
+.section-testimonies .testimonies-swiper .swiper-slide {
+  height: auto;
+  width: 100%;
+}
+.section-testimonies .testimonies-swiper .swiper-wrapper {
+  height: auto;
+  width: 100%;
+}
+.section-testimonies .testimonies-swiper .testimony-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 10px -10px 0 0 var(--accent);
+}
+.section-testimonies .testimonies-swiper .testimony-card img {
+  width: 170px;
+  height: 250px;
+  border-radius: 12px;
+}
+.section-testimonies .testimonies-swiper .testimony-card-right .testimony-card-right-upper {
+  display: flex;
+  gap: 40px;
+}
+.section-testimonies .testimonies-swiper .testimony-card-right .testimony-card-right-upper .testimony-card-inner-text h3 {
+  font-size: 20px;
+}
+.section-testimonies .testimonies-swiper .testimony-card-right .testimony-card-right-upper .testimony-card-inner-text p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.section-testimonies .testimonies-swiper .testimony-card-right .testimony-content {
+  margin-top: 16px;
+  font-size: 16px;
+}/*# sourceMappingURL=section-testimonies.css.map */
