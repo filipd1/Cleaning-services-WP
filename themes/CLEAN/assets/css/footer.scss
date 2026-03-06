@@ -96,7 +96,14 @@
 @media (max-width: 768px) {
     
     .site-footer {
-        width: 100%;
-        display: flex;
+
+        .footer-container {
+            width: 100%;
+            padding: 30px;
+
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
     }
 }

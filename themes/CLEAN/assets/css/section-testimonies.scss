@@ -108,3 +108,17 @@
 
     }
 }
+
+@media (max-width: 768px) {
+
+    .section-testimonies {
+
+        .section-content {
+
+            .testimonies-btns {
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

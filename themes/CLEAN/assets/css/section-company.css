@@ -34,4 +34,19 @@
 .section-company .section-content .company-cta {
   display: flex;
   gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .section-company .company-img {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .section-company .company-img img:first-of-type {
+    position: unset;
+    margin-left: 50px;
+  }
+  .section-company .company-img img:last-of-type {
+    left: 0;
+    bottom: -50px;
+  }
 }/*# sourceMappingURL=section-company.css.map */

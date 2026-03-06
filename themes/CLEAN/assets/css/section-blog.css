@@ -53,4 +53,14 @@
 .post-card:nth-of-type(2) .btn:hover {
   color: var(--font-color-main);
   background-color: var(--bg-color);
+}
+
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+  .blog-grid .post-card img {
+    border-radius: 30px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=section-blog.css.map */

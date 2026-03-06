@@ -121,6 +121,16 @@
             }
         }
     }
+}
+
+@media (max-width: 768px) {
+
+    .section-plans {
+    
+        .plans-grid {
+            grid-template-columns: 1fr;
 
 
+        }
+    }
 }

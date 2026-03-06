@@ -53,7 +53,7 @@
 @media (max-width: 768px) {
   .site-header {
     width: 100%;
-    padding: 2em;
+    padding: 30px;
   }
   .site-header .btn {
     display: none;

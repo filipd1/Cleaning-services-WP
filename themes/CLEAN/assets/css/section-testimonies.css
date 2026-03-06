@@ -74,4 +74,11 @@
 .section-testimonies .testimonies-swiper .testimony-card-right .testimony-content {
   margin-top: 16px;
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .section-testimonies .section-content .testimonies-btns {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=section-testimonies.css.map */

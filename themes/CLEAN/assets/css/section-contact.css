@@ -55,4 +55,13 @@
 }
 .contact-form .wpforms-container-full .wpforms-confirmation-scroll {
   border-radius: 14px;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    margin-top: 50px;
+  }
+  .contact-form .contact-form-subtitle {
+    display: none;
+  }
 }/*# sourceMappingURL=section-contact.css.map */

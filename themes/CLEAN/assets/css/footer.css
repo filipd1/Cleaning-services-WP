@@ -72,8 +72,11 @@
 }
 
 @media (max-width: 768px) {
-  .site-footer {
+  .site-footer .footer-container {
     width: 100%;
-    display: flex;
+    padding: 30px;
+  }
+  .site-footer .footer-container .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }/*# sourceMappingURL=footer.css.map */

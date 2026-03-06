@@ -102,4 +102,10 @@
 .section-plans .plans-grid .plans-card:nth-of-type(2) .btn:hover {
   color: var(--font-color-main);
   background-color: var(--bg-color);
+}
+
+@media (max-width: 768px) {
+  .section-plans .plans-grid {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=section-plans.css.map */

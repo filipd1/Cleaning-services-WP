@@ -1,8 +1,6 @@
 .section-services {
 
     .section-content {
-        columns: 1;
-        margin: auto 0;
 
         h5 {
             margin-bottom: 15px;
@@ -14,7 +12,6 @@
     }
 
     .services-img {
-        columns: 2;
         position: relative;
 
         img:first-of-type {
@@ -27,6 +24,27 @@
             position: absolute;
             left: 30px;
             bottom: -30px;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .section-services {
+
+        .services-img {
+            margin-top: 50px;
+
+            img:first-of-type {
+                position: unset;
+                margin-left: 50px;
+            }
+
+            img:last-of-type {
+                left: 0;
+                bottom: -50px;
+            }
         }
     }
 }

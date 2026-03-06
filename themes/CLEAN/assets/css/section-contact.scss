@@ -80,3 +80,14 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+
+    .contact-form {
+        margin-top: 50px;
+
+        .contact-form-subtitle {
+            display: none;
+        }
+    }
+}

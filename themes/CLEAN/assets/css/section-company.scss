@@ -44,3 +44,24 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+
+    .section-company {
+    
+        .company-img {
+            position: relative;
+            margin-bottom: 100px;
+
+            img:first-of-type {
+                position: unset;
+                margin-left: 50px;
+            }
+
+            img:last-of-type {
+                left: 0;
+                bottom: -50px;
+            }
+        }
+    }
+}

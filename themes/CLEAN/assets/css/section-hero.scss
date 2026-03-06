@@ -1,9 +1,10 @@
 .section-hero {
     background-image: url('../img/hero_bg.png');
     min-height: 585px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     .section-content {
-        columns: 1;
         margin: auto 0;
 
         h5 {
@@ -13,6 +14,30 @@
 
         p {
             margin: 40px 0;
+        }
+
+        .section-cta {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .section-hero {
+        background-position: 80% center;
+
+        .section-content {
+            p {
+                color: #000;
+            }
+
+            .section-cta {
+                .btn-secondary {
+                    display: none;
+                }
+            }
         }
     }
 }

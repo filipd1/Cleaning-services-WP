@@ -178,9 +178,20 @@ ul {
 @media (max-width: 768px) {
   .container {
     width: 100%;
-    padding: 2em;
   }
   .section {
     margin-bottom: 100px;
+    padding: 30px;
+  }
+  .section-grid {
+    display: block;
+  }
+  .simple-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .simple-grid .simple-card:nth-of-type(2) {
+    border: none;
   }
 }/*# sourceMappingURL=main.css.map */

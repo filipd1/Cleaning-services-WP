@@ -41,7 +41,7 @@
     </div>
 
     <div class="contact-form">
-        <p>Contact info</p>
+        <p class="contact-form-subtitle">Contact info</p>
         <?php echo do_shortcode('[wpforms id="132" title="true" description="true"]'); ?>
     </div>
 </div>

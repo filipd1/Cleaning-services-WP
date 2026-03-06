@@ -1,10 +1,10 @@
 .section-hero {
   background-image: url("../img/hero_bg.png");
   min-height: 585px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .section-hero .section-content {
-  -moz-columns: 1;
-       columns: 1;
   margin: auto 0;
 }
 .section-hero .section-content h5 {
@@ -13,4 +13,20 @@
 }
 .section-hero .section-content p {
   margin: 40px 0;
+}
+.section-hero .section-content .section-cta {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .section-hero {
+    background-position: 80% center;
+  }
+  .section-hero .section-content p {
+    color: #000;
+  }
+  .section-hero .section-content .section-cta .btn-secondary {
+    display: none;
+  }
 }/*# sourceMappingURL=section-hero.css.map */
